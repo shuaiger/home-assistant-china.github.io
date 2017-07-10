@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Release-Notes | Home Assistant]]></title>
-  <link href="https://home-assistant.io/blog/categories/release-notes/atom.xml" rel="self"/>
-  <link href="https://home-assistant.io/"/>
-  <updated>2017-07-10T16:15:01+00:00</updated>
-  <id>https://home-assistant.io/</id>
+  <title><![CDATA[Category: Release-Notes | Home Assistant 中文网]]></title>
+  <link href="https://home-assistant-china.github.io//blog/categories/release-notes/atom.xml" rel="self"/>
+  <link href="https://home-assistant-china.github.io//"/>
+  <updated>2017-07-11T00:29:05+08:00</updated>
+  <id>https://home-assistant-china.github.io//</id>
   <author>
-    <name><![CDATA[Home Assistant]]></name>
+    <name><![CDATA[Home Assistant China]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,10 +15,10 @@
   
   <entry>
     <title type="html"><![CDATA[0.48: Snips.ai, Shiftr.io and a massive History query speed up]]></title>
-    <link href="https://home-assistant.io/blog/2017/07/02/release-48/"/>
-    <updated>2017-07-02T00:02:05+00:00</updated>
-    <id>https://home-assistant.io/blog/2017/07/02/release-48</id>
-    <content type="html"><![CDATA[<a href='https://home-assistant.io/components/#version/0.48'><img src='https://home-assistant.io/images/blog/2017-07-0.48/components.png' style='border: 0;box-shadow: none;'></a>
+    <link href="https://home-assistant-china.github.io//blog/2017/07/02/release-48/"/>
+    <updated>2017-07-02T08:02:05+08:00</updated>
+    <id>https://home-assistant-china.github.io//blog/2017/07/02/release-48</id>
+    <content type="html"><![CDATA[<a href='https://home-assistant-china.github.io/components/#version/0.48'><img src='https://home-assistant-china.github.io/images/blog/2017-07-0.48/components.png' style='border: 0;box-shadow: none;'></a>
 
 It's time for a great new release!
 
@@ -523,10 +523,10 @@ light:
   
   <entry>
     <title type="html"><![CDATA[0.47: Python Scripts, Sesame Smart Lock, Gitter, Onvif cameras]]></title>
-    <link href="https://home-assistant.io/blog/2017/06/17/release-47/"/>
-    <updated>2017-06-17T01:04:05+00:00</updated>
-    <id>https://home-assistant.io/blog/2017/06/17/release-47</id>
-    <content type="html"><![CDATA[<a href='https://home-assistant.io/components/#version/0.47'><img src='https://home-assistant.io/images/blog/2017-06-0.47/components.png' style='border: 0;box-shadow: none;'></a>
+    <link href="https://home-assistant-china.github.io//blog/2017/06/17/release-47/"/>
+    <updated>2017-06-17T09:04:05+08:00</updated>
+    <id>https://home-assistant-china.github.io//blog/2017/06/17/release-47</id>
+    <content type="html"><![CDATA[<a href='https://home-assistant-china.github.io/components/#version/0.47'><img src='https://home-assistant-china.github.io/images/blog/2017-06-0.47/components.png' style='border: 0;box-shadow: none;'></a>
 
 In this release a ton of new stuff! And who doesn't like new stuff? This release we're passing the 700 integrations for Home Assistant. As of today [we're 1369 days old][first-commit], which means that roughly every two days a new integration gets added!
 
@@ -1095,10 +1095,10 @@ automation:
   
   <entry>
     <title type="html"><![CDATA[0.46: Rachio sprinklers, Netgear Arlo cameras and Z-Wave fans]]></title>
-    <link href="https://home-assistant.io/blog/2017/06/04/release-46/"/>
-    <updated>2017-06-04T01:04:05+00:00</updated>
-    <id>https://home-assistant.io/blog/2017/06/04/release-46</id>
-    <content type="html"><![CDATA[<a href='https://home-assistant.io/components/#version/0.46'><img src='https://home-assistant.io/images/blog/2017-06-0.46/components.png' style='border: 0;box-shadow: none;'></a>
+    <link href="https://home-assistant-china.github.io//blog/2017/06/04/release-46/"/>
+    <updated>2017-06-04T09:04:05+08:00</updated>
+    <id>https://home-assistant-china.github.io//blog/2017/06/04/release-46</id>
+    <content type="html"><![CDATA[<a href='https://home-assistant-china.github.io/components/#version/0.46'><img src='https://home-assistant-china.github.io/images/blog/2017-06-0.46/components.png' style='border: 0;box-shadow: none;'></a>
 
 It's time for 0.46! This release does not have too many new integrations, instead it focussed on bug fixes.
 
@@ -1489,10 +1489,10 @@ Experiencing issues introduced by this release? Please report them in our [issue
   
   <entry>
     <title type="html"><![CDATA[Home Assistant 0.45: Automation editor, Z-Wave panel, OCR]]></title>
-    <link href="https://home-assistant.io/blog/2017/05/20/automation-editor-zwave-panel-ocr/"/>
-    <updated>2017-05-20T13:00:00+00:00</updated>
-    <id>https://home-assistant.io/blog/2017/05/20/automation-editor-zwave-panel-ocr</id>
-    <content type="html"><![CDATA[<a href='https://home-assistant.io/components/#version/0.45'><img src='https://home-assistant.io/images/blog/2017-05-0.45/components.png' style='border: 0;box-shadow: none;'></a>
+    <link href="https://home-assistant-china.github.io//blog/2017/05/20/automation-editor-zwave-panel-ocr/"/>
+    <updated>2017-05-20T21:00:00+08:00</updated>
+    <id>https://home-assistant-china.github.io//blog/2017/05/20/automation-editor-zwave-panel-ocr</id>
+    <content type="html"><![CDATA[<a href='https://home-assistant-china.github.io/components/#version/0.45'><img src='https://home-assistant-china.github.io/images/blog/2017-05-0.45/components.png' style='border: 0;box-shadow: none;'></a>
 
 Welcome to another great release of Home Assistant! While some of contributors and users are gathering at PyCon US 2017, we still managed to get a great release together!
 
@@ -1921,10 +1921,10 @@ Experiencing issues introduced by this release? Please report them in our [issue
   
   <entry>
     <title type="html"><![CDATA[Home Assistant 0.44: ZigBee, OpenCV and DLib]]></title>
-    <link href="https://home-assistant.io/blog/2017/05/06/zigbee-opencv-dlib/"/>
-    <updated>2017-05-06T01:04:05+00:00</updated>
-    <id>https://home-assistant.io/blog/2017/05/06/zigbee-opencv-dlib</id>
-    <content type="html"><![CDATA[<a href='https://home-assistant.io/components/#version/0.44'><img src='https://home-assistant.io/images/blog/2017-05-0.44/components.png' style='border: 0;box-shadow: none;'></a>
+    <link href="https://home-assistant-china.github.io//blog/2017/05/06/zigbee-opencv-dlib/"/>
+    <updated>2017-05-06T09:04:05+08:00</updated>
+    <id>https://home-assistant-china.github.io//blog/2017/05/06/zigbee-opencv-dlib</id>
+    <content type="html"><![CDATA[<a href='https://home-assistant-china.github.io/components/#version/0.44'><img src='https://home-assistant-china.github.io/images/blog/2017-05-0.44/components.png' style='border: 0;box-shadow: none;'></a>
 
 This release brings some great new integrations. The biggest one is the [native ZigBee integration][zha docs] by [Russell Cloran][@rcloran]. This will allow Home Assistant to natively control Philips Hue lights without the need for a hub! (IKEA Tradfri lights not yet due to implementing a different profile)
 

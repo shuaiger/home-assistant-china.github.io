@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Organisation | Home Assistant]]></title>
-  <link href="https://home-assistant.io/blog/categories/organisation/atom.xml" rel="self"/>
-  <link href="https://home-assistant.io/"/>
-  <updated>2017-07-10T16:15:01+00:00</updated>
-  <id>https://home-assistant.io/</id>
+  <title><![CDATA[Category: Organisation | Home Assistant 中文网]]></title>
+  <link href="https://home-assistant-china.github.io//blog/categories/organisation/atom.xml" rel="self"/>
+  <link href="https://home-assistant-china.github.io//"/>
+  <updated>2017-07-11T00:29:05+08:00</updated>
+  <id>https://home-assistant-china.github.io//</id>
   <author>
-    <name><![CDATA[Home Assistant]]></name>
+    <name><![CDATA[Home Assistant China]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Home Assistant Governance [updated]]]></title>
-    <link href="https://home-assistant.io/blog/2017/01/21/home-assistant-governance/"/>
-    <updated>2017-01-21T23:05:00+00:00</updated>
-    <id>https://home-assistant.io/blog/2017/01/21/home-assistant-governance</id>
+    <link href="https://home-assistant-china.github.io//blog/2017/01/22/home-assistant-governance/"/>
+    <updated>2017-01-22T07:05:00+08:00</updated>
+    <id>https://home-assistant-china.github.io//blog/2017/01/22/home-assistant-governance</id>
     <content type="html"><![CDATA[### <a class='title-link' name='update-jan-28-2017' href='#update-jan-28-2017'></a> UPDATE JAN 28, 2017 
 
 After feedback from the community we have updated [the CLA][cla] and the license that Home Assistant is distributed under. For the CLA, instead of enforcing requirements on the grants and code, we now require contributions to be licensed under the Apache 2.0 license. Special thanks to [Matthew Garrett][mjg59] for his feedback and advice.
@@ -114,9 +114,9 @@ We hope you understand that our desire with these changes is only to help protec
   
   <entry>
     <title type="html"><![CDATA[Explaining the Updater]]></title>
-    <link href="https://home-assistant.io/blog/2016/10/25/explaining-the-updater/"/>
-    <updated>2016-10-25T04:30:00+00:00</updated>
-    <id>https://home-assistant.io/blog/2016/10/25/explaining-the-updater</id>
+    <link href="https://home-assistant-china.github.io//blog/2016/10/25/explaining-the-updater/"/>
+    <updated>2016-10-25T12:30:00+08:00</updated>
+    <id>https://home-assistant-china.github.io//blog/2016/10/25/explaining-the-updater</id>
     <content type="html"><![CDATA[On Saturday, we released [Home Assistant 0.31][0.31] which includes an improved updater component that checks for new versions using the Home Assistant servers. We wanted to update the community on its rollout and answer some questions that have come up. As part of the update check anonymous information about your operating system and Python version is submitted to Home Assistant servers unless you have opted out.
 
 <!--more-->
@@ -168,9 +168,9 @@ The source code of our updater AWS Lambda function is now available [here][sourc
   
   <entry>
     <title type="html"><![CDATA[To Infinity and Beyond 🚀]]></title>
-    <link href="https://home-assistant.io/blog/2016/04/19/to-infinity-and-beyond/"/>
-    <updated>2016-04-19T05:44:00+00:00</updated>
-    <id>https://home-assistant.io/blog/2016/04/19/to-infinity-and-beyond</id>
+    <link href="https://home-assistant-china.github.io//blog/2016/04/19/to-infinity-and-beyond/"/>
+    <updated>2016-04-19T13:44:00+08:00</updated>
+    <id>https://home-assistant-china.github.io//blog/2016/04/19/to-infinity-and-beyond</id>
     <content type="html"><![CDATA[After 2.5 years I think we can proudly say: Home Assistant is a success. I write _we_ because Home Assistant is no longer a one-person side project. It has become the side project of many people who spend countless hours on making Home Assistant the best home automation software out there. To acknowledge this we migrated the repositories from being under my name to be under our own [organisation on GitHub][gh-ha].
 
 On our journey we've reached many noteworthy milestones:
@@ -205,9 +205,9 @@ Paulus
   
   <entry>
     <title type="html"><![CDATA[New logo for Home Assistant]]></title>
-    <link href="https://home-assistant.io/blog/2015/03/08/new-logo/"/>
-    <updated>2015-03-08T22:16:10+00:00</updated>
-    <id>https://home-assistant.io/blog/2015/03/08/new-logo</id>
+    <link href="https://home-assistant-china.github.io//blog/2015/03/08/new-logo/"/>
+    <updated>2015-03-08T22:16:10+08:00</updated>
+    <id>https://home-assistant-china.github.io//blog/2015/03/08/new-logo</id>
     <content type="html"><![CDATA[It is well known that you are either a good programmer or a good designer. It's rare you'll meet someone that is both. That's why it wasn't surprising to anyone that the logo that I made was mediocre &mdash; at best. Luckily, [Jeremy Geltman](http://jeremygeltman.com/) has come to the rescue and contributed a brand new logo for Home Assistant.
 
 The new logo follows Googles material design spec. It uses the blue color that Home Assistant uses in the interface and it comes in two versions: a high detailed version (for homescreen icon etc) and a simple version (for favicon etc).
