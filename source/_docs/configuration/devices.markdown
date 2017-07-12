@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Adding devices to Home Assistant"
-description: "Steps to help you get your devices in Home Assistant."
+title: "为HomeAssistant添加设备"
+description: "添加设备到HomeAssistant的步骤"
 date: 2015-09-19 09:40
 sidebar: true
 comments: false
@@ -10,13 +10,13 @@ footer: true
 redirect_from: /getting-started/devices/
 ---
 
-Home Assistant will be able to automatically discover many devices and services available on your network if you have [the discovery component](/components/discovery/) enabled (the default setting).
+HomeAssistant会自动识别你局域网中多种可用设备和服务，前提是你打开了 [发现](/components/discovery/) 功能（默认开启）。
 
-See the [components overview page](/components/) to find installation instructions for your devices and services. If you can't find support for your favorite device or service, [consider adding support](/developers/add_new_platform/).
+访问 [组件概览页面](/components/) 来查看设备和服务安装指引。如果你没有找到对于你喜爱设备的支持，可以考虑自己 [开发新的平台](/developers/add_new_platform/) 来支持它。
 
-Usually every entity needs its own entry in the `configuration.yaml` file. There are two styles for multiple entries:
+通常地，每一个实体（设备）都需要在 `configuration.yaml` 文件中有一个定义，可以通过以下两种方式来添加多个实体：
 
-#### {% linkable_title Style 1: Collect every entity under the "parent" %}
+#### {% linkable_title 方式一：将所有实体都放在一个“父标签”下 %}
 
 ```yaml
 sensor:
@@ -33,9 +33,9 @@ switch:
   - platform: vera
 ```
 
-#### {% linkable_title Style 2: List each device separately %}
+#### {% linkable_title 方式二：单独列出所有实体 %}
 
-You need to append numbers or strings to differentiate the entries, as in the example below. The appended number or string must be unique.
+你需要在类别后面添加数字或字符串以区分不同实体，添加的数字或字符串必须保证唯一。
 
 ```yaml
 media_player livingroom:
@@ -52,13 +52,12 @@ camera 2:
   platform: mjpeg
 ```
 
-### {% linkable_title Grouping devices %}
+### {% linkable_title 设备分组 %}
 
-Once you have several devices set up, it is time to organize them into groups.
-Each group consists of a name and a list of entity IDs. Entity IDs can be retrieved from the web interface by using the Set State page in the Developer Tools (<img src='/images/screenshots/developer-tool-states-icon.png' alt='service developer tool icon' class="no-shadow" height="38" />).
+一旦你添加了多个设备到HomeAssistant，这时你将需要将他们分组显示和管理。每个分组包含一个组名称和一系列实体ID。实体ID可以从Web界面-管理工具-Set State部分(<img src='/images/screenshots/developer-tool-states-icon.png' alt='service developer tool icon' class="no-shadow" height="38" />)来获取。
 
 ```yaml
-# Example configuration.yaml entry showing two styles
+# configuration.yaml配置示例展示了两种实体ID的给定方式
 group:
   living_room: light.table_lamp, switch.ac
   bedroom:
@@ -66,5 +65,6 @@ group:
     - media_player.nexus_player
 ```
 
-For more details please check the [Group](/components/group/) page.
+更多细节请参考 [分组](/components/group/) 页面。
 
+By [Jones](https://bbs.hassbian.com/home.php?mod=space&username=Jones)
