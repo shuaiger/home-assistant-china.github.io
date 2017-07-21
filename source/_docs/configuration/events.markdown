@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Events"
-description: "Describes all there is to know about events in Home Assistant."
+title: "事件"
+description: "一切关于HomeAssistant事件的相关描述"
 date: 2016-03-12 12:00 -0800
 sidebar: true
 comments: false
@@ -10,12 +10,12 @@ footer: true
 redirect_from: /topics/events/
 ---
 
-The core of Home Assistant is the event bus. The event bus allows any component to fire or listen for events. It is the core of everything. For example, any state change will be announced on the event bus as a `state_changed` event containing the previous and the new state of an entity.
+事件总线是HomeAssistant的核心，它允许任何组件来触发或监听所有事件。这是一切的核心。例如，任何状态变化都将在事件总线上反映为一个 `state_changed` 事件，其中包括这个实体先前的状态和当前的状态。
 
-Home Assistant contains a few built-in events that are used to coordinate between various components.
+HomeAssistant包含一些内置的事件,用以协调不同组件之间的互动。
 
-### {% linkable_title Event `homeassistant_start` %}
-Event `homeassistant_start` is fired when all components from the configuration have been intitialized. This is the event that will start the timer firing off `time_changed` events.
+### {% linkable_title `homeassistant_start` 事件 %}
+`homeassistant_start` 事件会在配置文件中的所有组件都初始化后被触发。它被触发的同时将启动 `time_changed` 事件中的计时器，用以计算状态改变后所经历的时间。
 
 ### {% linkable_title Event `homeassistant_stop` %}
 Event `homeassistant_stop` is fired when Home Assistant is shutting down. It should be used to close any open connection or release any resources.
