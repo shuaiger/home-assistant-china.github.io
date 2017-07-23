@@ -17,11 +17,10 @@ HomeAssistant包含一些内置的事件,用以协调不同组件之间的互动
 ### {% linkable_title `homeassistant_start` 事件 %}
 `homeassistant_start` 事件会在配置文件中的所有组件都初始化后被触发。它被触发的同时将启动 `time_changed` 事件中的计时器，用以计算状态改变后所经历的时间。
 
-### {% linkable_title Event `homeassistant_stop` %}
-Event `homeassistant_stop` is fired when Home Assistant is shutting down. It should be used to close any open connection or release any resources.
+### {% linkable_title `homeassistant_stop` 事件 %}
+`homeassistant_stop` 在HomeAssistant关闭时被触发。它可被用于关掉相关网络连接和释放相应的资源。
 
-
-### {% linkable_title Event `state_changed` %}
+### {% linkable_title `state_changed` 事件 %}
 Event `state_changed` is fired when a state changes. Both `old_state` and `new_state` are state objects. [Documentation about state objects.](/topics/state_object/)
 
 Field | Description
